@@ -1,8 +1,6 @@
-@import url(_default.css);
-@import url(_navbar.css);
-@import url(_navbar2.css);
-@import url(_marquee.css);
-@import url(_marquee-content.css);
-@import url(_news.css);
-@import url(_imageFeed.css);
-@import url(_footer.css);
+@import url(default.css);
+@import url(navbar.css);
+@import url(marquee.css);
+@import url(news.css);
+@import url(imageFeed.css);
+@import url(footer.css);

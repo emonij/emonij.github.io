@@ -7,7 +7,7 @@
 
 <script src="https://use.fontawesome.com/7c3b15d228.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="css/main.css?v=0.2">
 
 <script>
 // Preload images
@@ -19,78 +19,121 @@
 //   var img = new Image();
 //   img.src = '../images/' + imageUrl;
 // });
-
 </script>
 </head>
 <body>
 
-<div class="marquee" data-theme="1">
-  <div class="marquee__content marqueeContent">
-    <div class="marqueeContent__panel -about">
-
-      <div class="marquee__navbar navbar">
-        <div class="navbar__inner">
-          <h1 class="navbar__title">EMONI.ART</h1>
-          <nav class="navbar__links">
-            <!-- <a class="a-navbarLink -text -news" href="#">News</a> -->
-            <!-- <a class="a-navbarLink -text -shop" href="#">Shop</a> -->
-            <a class="a-navbarLink -icon -instagram" href="#"><i class="fa fa-instagram"></i></a>
-            <a class="a-navbarLink -icon -email" href="#"><i class="fa fa-envelope"></i></a>
-          </nav>    
-        </div>
-      </div>
-  
-    </div>
-
-    <div class="marqueeContent__panel -events">
-      January 27: Grilled Cheese Party! 
-    </div>
-
-  </div>
+<div class="marquee" data-theme="1" style="display:none;">
   <div class="marquee__slideshow">
     <div class="marquee__slideshowImage"></div>
   </div>
 </div>
 
-<div style="display:none" class="o-navbar">
-  <div class="o-navbar__inner">
-    <h1 class="o-navbar__title">EMONI.ART</h1>
-    <nav class="o-navbar__links">
-      <!-- <a class="a-navbarLink -text -news" href="#">News</a> -->
-      <a class="a-navbarLink -text -shop" href="#">Shop</a>
-      <a class="a-navbarLink -icon -instagram" href="#"><i class="fa fa-instagram"></i></a>
-      <a class="a-navbarLink -icon -email" href="#"><i class="fa fa-envelope"></i></a>
+<div class="navbar">
+  <div class="navbar__inner">
+
+    <h1 class="navbar__title">EMONI.ART</h1>
+
+    <nav class="navbar__links">
+      <a class="navbarLink -text -shop" target="_blank" href="http://etsy.com/shop/emoniart">Shop</a>
+
+      <a class="navbarLink -icon -instagram" target="_blank" href="https://www.instagram.com/emoni.art/">
+        <i class="fa fa-instagram"></i>
+      </a>
+
+      <a class="navbarLink -icon -email" target="_blank" href="#"><i class="fa fa-envelope"></i></a>
     </nav>    
   </div>
 </div>
 
-<div class="o-news">
-  <p>A little bit of a thing about the artist that is an introduction about stuff that you'd like the share as a quick thingie before they get on to the cool ass pics right down there.</p>
-  <p>Jan 24 2020 - GALLERY NAME EXHIBIT - get off your couch and come to the thing where you can see this stuff in real life.</p>
+<div class="imageFeed -first">
+  <ul class="imageFeed__list">
+    <li><img src="images/emoni-art-abstract-01-untitled02.jpg" /></li>
+  </ul>
 </div>
 
-<div class="o-imageFeed">
-  <ul class="o-imageFeed__list">
-    <li><img src="images/39DC82C1-8F7B-4832-BFE5-93AB91C4DD1E.jpg"></li>
-    <li><img src="images/ADF0F656-CC87-43EA-8C5C-070ACCCB33BF.jpg"></li>
-    <li><img src="images/E7B3E29A-AA13-4803-8600-44B7DF2753FE.jpg"></li>
-    <li><img src="images/EFB79C71-848B-4831-AB70-B5FB35BD95A6.jpg"></li>
-    <li><img src="images/IMG_0774.jpg"></li>
-    <li><img src="images/IMG_0781.jpg"></li>
-    <li><img src="images/IMG_0791.jpg"></li>
-    <li><img src="images/IMG_0792.jpg"></li>
-    <li><img src="images/IMG_0793.jpg"></li>
-    <li><img src="images/IMG_0795.jpg"></li>
+<div class="news">
+  <div class="gig">
+    <div class="gig__header">
+      <span class="gig__date">Thursday Jan 21:</span> 
+      <span class="gig__title">Grilled Cheese Fest!</span>
+    </div>
+    <div class="gig__details">Get gooey with a new exhibit featuring some of Emoni's latest works and over 100 different kinds of artisinal grilled cheese concotions.</div>  
+  </div>
+
+  <div class="gig">
+    <div class="gig__header">
+      <span class="gig__date">February 3-12:</span> 
+      <span class="gig__title">Another exhibit</span>
+    </div>
+    <div class="gig__details">Pretend I came up with some other stupid dumbshit jokey shit here.</div>  
+  </div>
+</div>
+
+<div class="imageFeed -second">
+  <ul class="imageFeed__list">
+    <li><img src="images/emoni-art-abstract-02-untitled03.jpg" /></li>
+    <li><img src="images/emoni-art-abstract-03-untitled01.jpg" /></li>
+    <li><img class="not-portrait" src="images/emoni-art-black-skin-01-new-vision.jpg" /></li>
+  </ul>
+</div>
+
+<div class="news">
+  <p>Emoni is a 21 year old student artist based in Northern California, Sacramento area. All of her artistic training has been in traditional realism, but recently, she has started to explore contemporary styles in digital form.</p>
+
+  <p>Emoni has been creating art and feeding various forms of creative expression since she was a child. Visual art has been her avenue of choice for the past five years, and she continues to seek out new knowledge surrounding her craft.</p>
+    
+  <p>Ever learning, and ever evolving, the progression of her artistic style continuously offers bold and bright visuals, whilst offering subtle narrative. </p>
+</div>
+
+<div class="imageFeed -third">
+  <ul class="imageFeed__list">
+    <li><img src="images/emoni-art-black-skin-02-skai-splatter.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-03-skai-abstract.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-04-skai-cactus.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-05-juicy.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-06-light-me-up.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-06-the-guide-beige.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-07-the-guide-blue.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-08-the-guide-purple.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-09-the-guide-grey.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-10-the-guide-green.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-11-identity.jpg" /></li>
+    <li><img class="not-portrait" src="images/emoni-art-black-skin-12-dtiys1.jpg" /></li>
+    <li><img class="not-portrait" src="images/emoni-art-black-skin-13-speak-no.jpg" /></li>
+    <li><img class="not-portrait" src="images/emoni-art-black-skin-14-hear-no.jpg" /></li>
+    <li><img class="not-portrait" src="images/emoni-art-black-skin-15-see-no.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-16-whitehair-redsun.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-17-synergy.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-18-hunted.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-19-poppy.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-20-daisy.jpg" /></li>
+    <li><img src="images/emoni-art-black-skin-21-daylight-savings.jpg" /></li>
+    <li><img class="not-portrait" src="images/emoni-art-misc-00-self-care.jpg" /></li>
   </ul>    
 </div>
 
-<div class="o-footer"></div>
-<div class="o-footer-2"></div>
+<div class="footer">
+  <div class="footer__copyright copyright">
+    &copy;<span class="copyright__date">2020</span> emoni.art
+    <br>
+  </div>
+</div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/plugins/request-scroll.js"></script>
 <script src="js/utils.js"></script>
 <script src="js/set-fixed-navbar.js"></script>
 <script src="js/rotate-marquee.js"></script>
+
+<script>
+(function () {
+  $('.copyright__date').text(new Date().getFullYear());
+})();
+</script>
+
+
+
 </body>
 </html>

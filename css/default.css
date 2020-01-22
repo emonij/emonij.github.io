@@ -8,10 +8,25 @@ h1, h2, h3, h4, h5 { font-size:1rem; }
 
 /* GLOBAL VARIABLES */
 :root {
+  --textcolor-base: #fff;
   --textcolor-link: #253844;
   --textcolor-link-hover: #657884;
-  --bgcolor-body: #05182b;
+  --bgcolor-body: #000;
   --boxShadow-default: 0 0 7px #222;
+
+  --fontsize-base: 20px;
+  --fontsize-small: .8rem;
+  --fontsize-highlight: 1.8rem;
+  --maxwidth-content: 700px;
+
+  --page-gutter: 1rem;
+  
+}
+
+@media (min-width:600px) {
+  :root {
+    --page-gutter: 2rem;
+  }  
 }
 
 
@@ -24,6 +39,8 @@ body {
   background: var(--bgcolor-body);
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 200;
+  font-size:var(--fontsize-base);
+  color:var(--textcolor-base);
 }
 
 a {

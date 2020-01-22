@@ -1,0 +1,11 @@
+.footer {
+  max-width:var(--maxwidth-content);
+  margin:0 auto;
+  padding:3rem 0 5rem;
+  text-align:center;
+}
+
+
+.copyright {
+  font-size:var(--fontsize-small);
+}

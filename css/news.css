@@ -1,0 +1,21 @@
+.news { 
+  max-width:var(--maxwidth-content);
+  margin:0 auto;
+  padding:2rem var(--page-gutter);
+  text-align:center;
+}
+
+.news p:not(:last-of-type),
+.gig:not(:last-of-type) {
+  margin-bottom:2rem;
+}
+
+.gig__header {
+  font-size:var(--fontsize-highlight);
+}
+
+.gig__date {
+  display:block; 
+  text-transform: uppercase;
+  font-size:var(--fontsize-small);
+}
