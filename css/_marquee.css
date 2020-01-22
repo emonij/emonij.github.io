@@ -1,0 +1,43 @@
+:root {
+  --bgcolor-marquee: #2E5868;
+  --image-marquee: url('../images/IMG_0774.jpg');
+  --fadeDelay-marquee: .8s;
+}
+
+.marquee {
+  position:relative;
+  height:100vh;
+}
+
+.marquee__slideshow {
+  position:absolute; 
+  top:0; left:0; right:0; bottom:0;
+  background: var(--bgcolor-marquee);
+  opacity:1;
+  transition: opacity var(--fadeDelay-marquee);
+}
+
+.marquee.-transitioning .marquee__slideshow {
+  opacity: 0;
+  transition: opacity var(--fadeDelay-marquee);
+}
+
+.marquee__slideshowImage {
+  float:right;
+  position:relative;
+  height:100%;
+  width:100%;
+  max-width:600px;
+  background: var(--image-marquee) no-repeat;
+  background-size:cover;
+}
+
+.marquee__slideshowImage + * { clear:both; }
+
+.marquee__content { 
+  position:absolute; 
+  top:50%; transform:translateY(-50%); 
+  left:5vw;
+  z-index:10;
+  width:45vw;
+}
