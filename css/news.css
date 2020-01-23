@@ -5,9 +5,17 @@
   text-align:center;
 }
 
+.news.-gigs {
+  max-width:600px;
+}
+
 .news p:not(:last-of-type),
 .gig:not(:last-of-type) {
   margin-bottom:2rem;
+}
+
+.news a {
+  text-decoration:underline;
 }
 
 .gig__header {
@@ -17,5 +25,10 @@
 .gig__date {
   display:block; 
   text-transform: uppercase;
+  font-size:var(--fontsize-small);
+}
+
+.gig__location { 
+  padding-top:5px;
   font-size:var(--fontsize-small);
 }

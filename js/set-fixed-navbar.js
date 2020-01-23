@@ -3,8 +3,8 @@
   // setup
   const utils = new window.utils();
 
-  const $navbar = $('.navbar');
-  const $navbarInner = $navbar.find('.navbar__inner');
+  const $navbar = $('.navbar-wrapper');
+  const $navbarInner = $navbar.find('.navbar');
   const topGutter =  utils.getCssVal('--topGutter-navbar');
   
   // init
